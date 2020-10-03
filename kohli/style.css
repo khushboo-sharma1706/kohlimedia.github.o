@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+nav {
+  background: #594848;
+  width: 100%;
+  overflow: auto;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  float: left;
+}
+nav a {
+  width: 120px;
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  background: #594848;
+  font-size: 17px;
+  color: white;
+  padding: 20px 10px;
+  font-family: Arial;
+}
+nav a:hover {
+  background: skyblue;
+  color: black;
+}
+.M {
+  font: size 20px;
+  font-style: Arial;
+  text-align: center;
+  color: black;
+}
+
+.row {
+  width: 1200px;
+  margin: auto;
+  background: #f2f2f2;
+  overflow: auto;
+}
+
+.column {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 390px;
+  height: 40%;
+  background: white;
+}
+.column img {
+  width: 100%;
+  height: 300px;
+}
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+footer {
+  padding: 10px;
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+  background: #594848;
+  font-family: Arial;
+  letter-spacing: 1px;
+}
+body {
+  line-height: 1.3em;
+  min-width: 920px;
+}
+.history-tl-container {
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+.history-tl-container ul.tl {
+  margin: 20px 0;
+  padding: 0;
+  display: inline-block;
+}
+.history-tl-container ul.tl li {
+  list-style: none;
+  margin: auto;
+  margin-left: 200px;
+  min-height: 50px;
+  /*background: rgba(255,255,0,0.1);*/
+  border-left: 1px dashed #86d6ff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+.history-tl-container ul.tl li:last-child {
+  border-left: 0;
+}
+.history-tl-container ul.tl li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 0.74);
+  border-radius: 500%;
+  background: #258cc7;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+.history-tl-container ul.tl li:hover::before {
+  border-color: #258cc7;
+  transition: all 1000ms ease-in-out;
+}
+ul.tl li .item-title {
+}
+ul.tl li .item-detail {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 12px;
+}
+ul.tl li .timestamp {
+  color: #8d8d8d;
+  position: absolute;
+  width: 100px;
+  left: -50%;
+  text-align: right;
+  font-size: 12px;
+}
+.two {
+  outline-width: 1 rem;
+  outline-style: solid;
+  outline-color: white;
+  outline-offset: 10px;
+}
+.welcome {
+  width: 400px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #594848;
+}
+.welcome img {
+  width: 400;
+  height: 300px;
+  background-color: #594848;
+}
